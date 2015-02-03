@@ -9,7 +9,7 @@
     {if $modvars.Weblinks.thumber}
     <div class="wl-thumb">
         <a href="{modurl modname='Weblinks' type='user' func='visit' lid=$link.lid}" {if $modvars.Weblinks.targetblank == 1}target="_blank"{/if} >
-            <img src="http://image.thumber.de/?size={$modvars.Weblinks.thumbersize}&amp;url={$link.url}" />
+            <img src="https://thumber.de/image/?size=XL&url={$modvars.Weblinks.thumbersize}&amp;url={$link.url}" />
         </a>
     </div>
     {/if}
